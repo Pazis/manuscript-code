@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+# generated tables; rerun the scripts to rebuild
+bgc_analyses/output/
+kegg_analyses/output/*
+!kegg_analyses/output/README.md

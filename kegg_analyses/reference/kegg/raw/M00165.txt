@@ -1,0 +1,695 @@
+ENTRY       M00165            Pathway   Module
+NAME        Reductive pentose phosphate cycle (Calvin cycle)
+DEFINITION  (K00855,K28462) (K01601-K01602) K00927 (K05298,K00150,K00134) K01803 (K01623,K01624) (K03841,K02446,K11532,K01086) K00615 (K01100,K11532,K01086) (K01807,K01808) K01783
+DIAGRAM     M00165  Reductive pentose phosphate cycle (Calvin cycle)
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00710  Carbon fixation by Calvin cycle
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+ORTHOLOGY   K00855,K28462  phosphoribulokinase [EC:2.7.1.19] [RN:R01523]
+            K01601,K01602  ribulose-bisphosphate carboxylase [EC:4.1.1.39] [RN:R00024]
+            K00927  phosphoglycerate kinase [EC:2.7.2.3] [RN:R01512]
+            K05298,K00150,K00134  glyceraldehyde-3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.13 1.2.1.59 1.2.1.12] [RN:R01061 R01063]
+            K01803  triosephosphate isomerase [EC:5.3.1.1] [RN:R01015]
+            K01623,K01624  fructose-bisphosphate aldolase [EC:4.1.2.13] [RN:R01068 R01829]
+            K03841,K02446,K11532,K01086  fructose-1,6-bisphosphatase [EC:3.1.3.11] [RN:R00762]
+            K00615  transketolase [EC:2.2.1.1] [RN:R01067 R01641]
+            K01100,K11532,K01086  sedoheptulose-bisphosphatase [EC:3.1.3.37] [RN:R01845]
+            K01807,K01808  ribose 5-phosphate isomerase [EC:5.3.1.6] [RN:R01056]
+            K01783  ribulose-phosphate 3-epimerase [EC:5.1.3.1] [RN:R01529]
+COMPLETE    ath  Arabidopsis thaliana (thale cress)
+            aly  Arabidopsis lyrata (lyrate rockcress)
+            crb  Capsella rubella (pink shepherd's-purse)
+            csat  Camelina sativa (false flax)
+            eus  Eutrema salsugineum (saltwater cress)
+            brp  Brassica rapa (field mustard)
+            bna  Brassica napus (rape)
+            rsz  Raphanus sativus (radish)
+            thj  Tarenaya hassleriana (spider flower)
+            cpap  Carica papaya (papaya)
+            cit  Citrus sinensis (Valencia orange)
+            pvy  Pistacia vera (pistachio)
+            minc  Mangifera indica (mango)
+            tcc  Theobroma cacao (cacao)
+            gra  Gossypium raimondii
+            ghi  Gossypium hirsutum (upland cotton)
+            gab  Gossypium arboreum (tree cotton)
+            hsyr  Hibiscus syriacus (Rose-of-Sharon)
+            dzi  Durio zibethinus (durian)
+            egr  Eucalyptus grandis (rose gum)
+            rarg  Rhodamnia argentea (silver malletwood)
+            gmx  Glycine max (soybean)
+            gsj  Glycine soja (wild soybean)
+            pvu  Phaseolus vulgaris (common bean)
+            var  Vigna angularis (adzuki bean)
+            vun  Vigna unguiculata (cowpea)
+            ccaj  Cajanus cajan (pigeon pea)
+            aprc  Abrus precatorius (Indian licorice)
+            mtr  Medicago truncatula (barrel medic)
+            tpra  Trifolium pratense (red clover)
+            cam  Cicer arietinum (chickpea)
+            psat  Lathyrus oleraceus (garden pea)
+            adu  Arachis duranensis
+            aip  Arachis ipaensis
+            ahf  Arachis hypogaea (peanut)
+            pcin  Prosopis cineraria
+            qsa  Quillaja saponaria (soapbark tree)
+            fve  Fragaria vesca (woodland strawberry)
+            rcn  Rosa chinensis (China rose)
+            pper  Prunus persica (peach)
+            pmum  Prunus mume (Japanese apricot)
+            pdul  Prunus dulcis (almond)
+            mdm  Malus domestica (apple)
+            msyl  Malus sylvestris (European crab apple)
+            zju  Ziziphus jujuba (Chinese jujube)
+            mnt  Morus notabilis
+            hlp  Humulus lupulus (common hop)
+            csv  Cucumis sativus (cucumber)
+            cmo  Cucumis melo (muskmelon)
+            bhj  Benincasa hispida (wax gourd)
+            mcha  Momordica charantia (bitter melon)
+            cmax  Cucurbita maxima (winter squash)
+            cmos  Cucurbita moschata (crookneck pumpkin)
+            rcu  Ricinus communis (castor bean)
+            mean  Mercurialis annua (annual mercury)
+            jcu  Jatropha curcas (Barbados nut)
+            hbr  Hevea brasiliensis (rubber tree)
+            mesc  Manihot esculenta (cassava)
+            pop  Populus trichocarpa (black cottonwood)
+            peu  Populus euphratica (Euphrates poplar)
+            palz  Populus alba (white poplar)
+            jre  Juglans regia (English walnut)
+            cave  Corylus avellana (European hazelnut)
+            csaa  Castanea sativa (European chestnut)
+            vvi  Vitis vinifera (wine grape)
+            vri  Vitis riparia (riverbank grape)
+            sly  Solanum lycopersicum (tomato)
+            spen  Solanum pennellii
+            sot  Solanum tuberosum (potato)
+            sstn  Solanum stenotomum
+            sdul  Solanum dulcamara (climbing nightshade)
+            sver  Solanum verrucosum
+            cann  Capsicum annuum (peppers)
+            lbb  Lycium barbarum (goji berry)
+            nta  Nicotiana tabacum (common tobacco)
+            nsy  Nicotiana sylvestris (wood tobacco)
+            nto  Nicotiana tomentosiformis
+            nau  Nicotiana attenuata (coyote tobacco)
+            ini  Ipomoea nil (Japanese morning glory)
+            itr  Ipomoea triloba (trilobed morning glory)
+            sind  Sesamum indicum (sesame)
+            oeu  Olea europaea var. sylvestris (wild olive)
+            sspl  Salvia splendens (scarlet sage)
+            smil  Salvia miltiorrhiza (redroot sage)
+            shis  Salvia hispanica (chia)
+            apan  Andrographis paniculata
+            hpum  Henckelia pumila
+            phua  Primulina huaijiensis
+            pebu  Primulina eburnea
+            ptab  Primulina tabacum
+            carb  Coffea arabica (coffee)
+            han  Helianthus annuus (common sunflower)
+            bhw  Bidens hawaiensis
+            ecad  Erigeron canadensis (horseweed)
+            lsv  Lactuca sativa (garden lettuce)
+            dcr  Daucus carota (carrot)
+            agrv  Apium graveolens (celery)
+            csin  Camellia sinensis (tea plant)
+            rvl  Rhododendron vialii
+            aew  Actinidia eriantha (wild kiwifruit)
+            dlt  Diospyros lotus (date-plum)
+            cflo  Cornus florida (flowering dogwood)
+            bvg  Beta vulgaris (sugar beet)
+            soe  Spinacia oleracea (spinach)
+            cqi  Chenopodium quinoa (quinoa)
+            atri  Amaranthus tricolor (tampala)
+            slaf  Silene latifolia (white campion)
+            mof  Malania oleifera
+            nnu  Nelumbo nucifera (sacred lotus)
+            ming  Macadamia integrifolia (macadamia nut)
+            tss  Telopea speciosissima (New South Wales waratah)
+            psom  Papaver somniferum (opium poppy)
+            osa  Oryza sativa japonica (Japanese rice)
+            dosa  Oryza sativa japonica (Japanese rice) (RAPDB)
+            obr  Oryza brachyantha (malo sina)
+            ogl  Oryza glaberrima (African rice)
+            bdi  Brachypodium distachyon (stiff brome)
+            ats  Aegilops tauschii (wheat D)
+            tdc  Triticum dicoccoides (wild emmer wheat)
+            taes  Triticum aestivum (bread wheat)
+            tua  Triticum urartu (red wild einkorn wheat)
+            hvg  Hordeum vulgare subsp. vulgare (domesticated barley)
+            lper  Lolium perenne (perennial ryegrass)
+            sbi  Sorghum bicolor (sorghum)
+            zma  Zea mays (maize)
+            mflo  Miscanthus floridulus
+            sita  Setaria italica (foxtail millet)
+            svs  Setaria viridis (green foxtail)
+            pvir  Panicum virgatum (switchgrass)
+            phai  Panicum hallii (Hall's panicgrass)
+            crot  Carex rostrata (bottle sedge)
+            acss  Ananas comosus (pineapple)
+            pda  Phoenix dactylifera (date palm)
+            egu  Elaeis guineensis (African oil palm)
+            mus  Musa acuminata (dessert banana)
+            zof  Zingiber officinale (ginger)
+            dct  Dendrobium catenatum
+            peq  Phalaenopsis equestris
+            aof  Asparagus officinalis (garden asparagus)
+            wau  Wolffia australiana
+            msin  Magnolia sinica
+            ncol  Nymphaea colorata (blue-petal water lily)
+            atr  Amborella trichopoda
+            cjf  Cryptomeria japonica (Japanese cedar)
+            smo  Selaginella moellendorffii
+            ppp  Physcomitrium patens (spreading earthmoss)
+            cre  Chlamydomonas reinhardtii
+            csl  Coccomyxa subellipsoidea
+            cvr  Chlorella variabilis
+            apro  Auxenochlorella protothecoides
+            ota  Ostreococcus tauri
+            cme  Cyanidioschyzon merolae
+            gsl  Galdieria sulphuraria
+            ccp  Chondrus crispus (carragheen)
+            dko  Dokdonella koreensis
+            marl  Marinobacterium sp. LSUCC0821
+            nik  Nitrincola iocasae
+            vff  Vitreoscilla filiformis
+            rpj  Ralstonia pickettii DTP0602
+            reh  Cupriavidus necator H16
+            cnc  Cupriavidus necator N-1
+            cuh  Cupriavidus necator NH9
+            rme  Cupriavidus metallidurans
+            cti  Cupriavidus taiwanensis
+            cox  Cupriavidus oxalaticus
+            cuk  Cupriavidus sp. KK10
+            cupp  Cupriavidus sp. P-10
+            bug  Burkholderia sp. CCGE1001
+            bgf  Burkholderia sp. CCGE1003
+            byi  Burkholderia sp. YI23
+            buq  Burkholderia sp. HB1
+            burt  Burkholderia sp. THE68
+            bxe  Paraburkholderia xenovorans LB400
+            bxb  Paraburkholderia xenovorans LB400
+            bge  Paraburkholderia atlantica CCGE1002
+            bpx  Paraburkholderia phenoliruptrix
+            bcai  Paraburkholderia caribensis
+            pspw  Paraburkholderia sprentiae
+            para  Paraburkholderia sp. SOS3
+            parb  Paraburkholderia aromaticivorans
+            phs  Paraburkholderia hospita
+            pter  Paraburkholderia terrae
+            pgp  Paraburkholderia graminis
+            pcj  Paraburkholderia caledonica
+            pts  Paraburkholderia terricola
+            pgis  Paraburkholderia ginsengisoli
+            pew  Paraburkholderia edwinii
+            pdio  Paraburkholderia dioscoreae
+            pkf  Paraburkholderia kirstenboschensis
+            phun  Paraburkholderia kururiensis
+            padd  Paraburkholderia sp. DD10
+            buo  Caballeronia insecticola
+            cabk  Caballeronia sp. NK8
+            bue  Caballeronia cordobensis
+            tcar  Trinickia caryophylli
+            aka  Advenella kashmirensis
+            amim  Advenella mimigardefordensis
+            aaqa  Ampullimonas aquatilis
+            rfr  Rhodoferax ferrireducens
+            rac  Rhodoferax antarcticus
+            rhob  Rhodoferax sp. BAB1
+            rlh  Rhodoferax lithotrophicus
+            pna  Polaromonas naphthalenivorans
+            atem  Acidovorax temperans
+            vap  Variovorax paradoxus S110
+            vpd  Variovorax paradoxus B4
+            lih  Limnohabitans sp. 63ED37-2
+            hyr  Hydrogenophaga sp. RAC07
+            hyl  Hydrogenophaga crassostreae
+            hyc  Hydrogenophaga sp. PAMC20947
+            hpse  Hydrogenophaga pseudoflava
+            htn  Hydrogenophaga taeniospiralis
+            cbaa  Serpentinimonas raichei
+            cbab  Serpentinimonas maccroryi
+            mpt  Methylibium petroleiphilum
+            metp  Methylibium sp. Pch-M
+            rge  Rubrivivax gelatinosus
+            rbn  Rubrivivax benzoatilyticus
+            snn  Sphaerotilus sulfidivorans
+            smio  Sphaerotilus microaerophilus
+            lch  Leptothrix cholodnii
+            idc  Ideonella dechloratans
+            ater  Aquincola tertiaricarbonis
+            aon  Aquabacterium olei
+            nok  Noviherbaspirillum sp. UKPF54
+            tin  Thiomonas intermedia
+            thi  Thiomonas arsenitoxydans
+            ttw  Tepidimonas taiwanensis
+            etb  Eleftheria terrae
+            bbag  Burkholderiales bacterium GJ-E10
+            shd  Sulfuritalea hydrogenivorans
+            metr  Methyloversatilis sp. RAC08
+            apet  Aromatoleum petrolei
+            dar  Dechloromonas aromatica
+            dden  Dechloromonas denitrificans
+            qau  Quatrionicoccus australiensis
+            fle  Ferribacterium limneticum
+            ahv  Azonexus hydrophilus
+            aza  Azoarcus sp. KH32C
+            azd  Azoarcus sp. DN11
+            thu  Thauera humireducens SgZ-1
+            thau  Thauera humireducens Piv1
+            thk  Thauera sinica
+            thag  Thauera sp. GDN1
+            azq  Nitrogeniibacter mangrovi
+            acom  Parazoarcus communis
+            fmy  Ferrovum myxofaciens
+            app  Accumulibacter phosphatis
+            acog  Accumulibacter cognatus
+            mci  Mesorhizobium ciceri biovar biserrulae
+            mcic  Mesorhizobium ciceri CC1192
+            mop  Mesorhizobium opportunistum
+            mesw  Mesorhizobium sp. WSM1497
+            mesm  Mesorhizobium sp. M9A.F.Ca.ET.002.03.1.2
+            mhua  Mesorhizobium huakuii
+            moh  Mesorhizobium onobrychidis
+            mmei  Mesorhizobium mediterraneum
+            mews  Mesorhizobium sp. WSM4904
+            mewm  Mesorhizobium sp. WSM4906
+            meaa  Mesorhizobium sp. AaZ16
+            pht  Phyllobacterium zundukense
+            pmel  Phyllobacterium meliloti
+            hoax  Parahoeflea alexandrii
+            bja  Bradyrhizobium diazoefficiens USDA 110
+            bju  Bradyrhizobium japonicum USDA 6
+            bjp  Bradyrhizobium japonicum E109
+            bra  Bradyrhizobium sp. ORS 278
+            bbt  Bradyrhizobium sp. BTAi1
+            brs  Bradyrhizobium cosmicum
+            aol  Bradyrhizobium oligotrophicum
+            brc  Bradyrhizobium sp. CCGE-LA001
+            brad  Bradyrhizobium sp. BF49
+            bic  Bradyrhizobium icense
+            bro  Bradyrhizobium sp. ORS 285
+            brk  Bradyrhizobium sp. SK17
+            bot  Bradyrhizobium ottawaense
+            brq  Bradyrhizobium amphicarpaeae
+            bgq  Bradyrhizobium guangdongense
+            bgz  Bradyrhizobium guangzhouense
+            bbet  Bradyrhizobium betae
+            barh  Bradyrhizobium arachidis
+            bvz  Bradyrhizobium vignae
+            bel  Bradyrhizobium elkanii
+            bdg  Bradyrhizobium daqingense
+            bsep  Bradyrhizobium septentrionale
+            bqb  Bradyrhizobium quebecense
+            bsei  Bradyrhizobium sediminis
+            bban  Bradyrhizobium barranii subsp. barranii
+            bcan  Bradyrhizobium canariense
+            baut  Bradyrhizobium brasilense 5G1B
+            bbra  Bradyrhizobium brasilense CB627
+            bgk  Bradyrhizobium genosp. L
+            bcou  Bradyrhizobium commune
+            bpah  Bradyrhizobium pachyrhizi
+            bxn  Bradyrhizobium xenonodulans
+            bros  Bradyrhizobium roseum
+            braz  Bradyrhizobium sp. C-145
+            boy  Bradyrhizobium ontarionense
+            bray  Bradyrhizobium sp. 62B
+            brai  Bradyrhizobium sp. I71
+            braa  Bradyrhizobium sp. Ash2021
+            bgea  Bradyrhizobium genosp. A
+            bgep  Bradyrhizobium genosp. P
+            bran  Bradyrhizobium sp. NDS-1
+            brab  Bradyrhizobium sp. BWA-3-5
+            byu  Bradyrhizobium yuanmingense
+            bhua  Bradyrhizobium huanghuaihaiense
+            brah  Bradyrhizobium sp. BWC-3-1
+            rpa  Rhodopseudomonas palustris CGA009
+            rpb  Rhodopseudomonas palustris HaA2
+            rpc  Rhodopseudomonas palustris BisB18
+            rpd  Rhodopseudomonas palustris BisB5
+            rpe  Rhodopseudomonas palustris BisA53
+            rpt  Rhodopseudomonas palustris TIE-1
+            rpx  Rhodopseudomonas palustris DX-1
+            rhol  Rhodopseudomonas sp. BAL398
+            rhoe  Rhodopseudomonas sp. P1
+            nwi  Nitrobacter winogradskyi
+            nha  Nitrobacter hamburgensis
+            nvb  Nitrobacter vulgaris
+            nitr  Nitrobacter sp. CN101
+            ocg  Afipia carboxidovorans OM5 (Goettingen)
+            oco  Afipia carboxidovorans OM4
+            pcax  Afipia carboxydohydrogena
+            trb  Tardiphaga robiniae
+            tard  Tardiphaga sp. 709
+            tarv  Tardiphaga sp. vice154
+            tarc  Tardiphaga sp. vice278
+            xau  Xanthobacter versatilis
+            xdi  Xanthobacter dioxanivorans
+            star  Starkeya sp. ORNL1
+            lne  Labrys sp. KNU-23
+            sno  Ancylobacter novellus
+            anc  Ancylobacter sp. TS-1
+            apra  Ancylobacter pratisalsi
+            apol  Ancylobacter polymorphus
+            mlg  Methylovirgula ligni
+            mehy  Methylovirgula sp. HY1
+            rva  Rhodomicrobium vannielii
+            rlac  Rhodomicrobium lacus
+            metg  Methyloligella sp. GL2
+            deq  Devosia sp. H5989
+            devd  Devosia sp. D6-9
+            yti  Paradevosia tibetensis
+            bvr  Blastochloris viridis
+            blag  Blastochloris tepida
+            hdi  Hartmannibacter diazotrophicus
+            aala  Aureimonas sp. OT7
+            aalm  Aureimonas altamirensis
+            auz  Aureimonas sp. SA4125
+            aub  Aurantimonas sp. HBX-1
+            jie  Jiella pelagia
+            pphr  Pannonibacter phragmitetus
+            con  Actibacterium sp. EMB200-NS6
+            yan  Salipiger sp. CCB-MM3
+            tpro  Salipiger profundus
+            paby  Salipiger abyssi
+            sbru  Salipiger bruguierae
+            rsp  Cereibacter sphaeroides 2.4.1
+            rsh  Cereibacter sphaeroides ATCC 17029
+            rsq  Cereibacter sphaeroides ATCC 17025
+            rsk  Cereibacter sphaeroides KD131
+            cazt  Cereibacter azotoformans
+            rbl  Pseudogemmobacter blasticus
+            pde  Paracoccus denitrificans
+            pye  Paracoccus yeei
+            pars  Paracoccus suum
+            parr  Paracoccus sp. Arc7-R13
+            pkd  Paracoccus kondratievae
+            ppan  Paracoccus pantotrophus
+            plia  Paracoccus liaowanqingii
+            pmau  Paracoccus marcusii
+            pmeh  Paracoccus methylovorus
+            palp  Paracoccus alcaliphilus
+            pver  Paracoccus versutus
+            pfeo  Paracoccus ferrooxidans
+            pqo  Paracoccus qomolangmaensis
+            rsu  Rhodovulum sulfidophilum
+            rhm  Rhodovulum sp. MB263
+            rhc  Rhodovulum sp. P5
+            rhov  Rhodovulum sp. HP10
+            daa  Frigidibacter mobilis
+            thw  Thioclava nitratireducens
+            tec  Thioclava electrotropha
+            hml  Haematobacter massiliensis
+            ppru  Paroceanicella profunda
+            pamo  Profundibacter amoris
+            pgv  Polymorphum gilvum
+            pthr  Piezobacter thermophilus
+            sinr  Sinirhodobacter sp. HNIBRBA609
+            rcp  Rhodobacter capsulatus
+            acr  Acidiphilium cryptum
+            amv  Acidiphilium multivorum
+            ali  Azospirillum lipoferum
+            ati  Azospirillum thiophilum
+            ahu  Azospirillum humicireducens
+            azp  Azospirillum sp. TSA2s
+            nao  Nitrospirillum viridazoti
+            skt  Skermanella cutis
+            smuc  Skermanella mucosa
+            sroe  Skermanella rosea
+            rru  Rhodospirillum rubrum ATCC 11170
+            rrf  Rhodospirillum rubrum F11
+            rce  Rhodospirillum centenum
+            rpm  Pararhodospirillum photometricum
+            mgy  Magnetospirillum gryphiswaldense MSR-1 v2
+            mgry  Magnetospirillum gryphiswaldense MSR-1
+            magx  Magnetospirillum sp. XM-1
+            magn  Magnetospirillum sp. ME-1
+            mag  Paramagnetospirillum magneticum
+            magq  Magnetospira sp. QH-2
+            mvp  Marinivivus vitaminiproducens
+            htl  Hydrogenophilus thermoluteolus
+            mkc  Methylacidiphilum kamchatkense
+            mfh  Methylacidiphilum fumarolicum
+            mcao  Methylacidiphilum caldifontis
+            meap  Methylacidimicrobium sp. AP8
+            hpri  Haliotispira prima
+            mchi  Mycobacterium intracellulare subsp. chimaera
+            msto  Mycobacterium stomatepiae
+            msak  Mycobacterium saskatchewanense
+            mxe  Mycobacterium xenopi
+            mpag  Mycobacterium paragordonae
+            mmeh  Mycobacterium methanotrophicum
+            myw  Mycobacterium sp. MS1601
+            mll  Mycolicibacterium litorale
+            mcht  Mycolicibacterium chitae
+            mmor  Mycolicibacterium moriokaense
+            mgad  Mycolicibacterium gadium
+            mmat  Mycolicibacterium mageritense
+            mpae  Mycolicibacterium pallens
+            mcro  Mycolicibacterium crocinum
+            mfre  Mycolicibacterium frederiksbergense
+            mflu  Mycolicibacterium fluoranthenivorans
+            ncy  Nocardia cyriacigeorgica
+            nsl  Nocardia mangyaensis
+            ntp  Nocardia terpenica
+            noz  Nocardia sp. CS682
+            nod  Nocardia otitidiscaviarum
+            nad  Nocardia asteroides
+            ngp  Nocardia gipuzkoensis
+            nspu  Nocardia sputorum
+            spin  Skermania pinensis
+            afuv  Ammonicoccus fulvus
+            ksl  Kribbella soli
+            pdx  Pseudonocardia benzenivorans
+            paut  Pseudonocardia autotrophica
+            syn  Synechocystis sp. PCC 6803
+            syz  Synechocystis sp. PCC 6803
+            syy  Synechocystis sp. PCC 6803 GT-S
+            syt  Synechocystis sp. PCC 6803 GT-I
+            sys  Synechocystis sp. PCC 6803 PCC-N
+            syq  Synechocystis sp. PCC 6803 PCC-P
+            syj  Synechocystis sp. PCC 6714
+            syo  Synechocystis sp. IPPAS B-1465
+            synh  Synechocystis sp. PCC 7338
+            syns  Synechocystis sp. LKSZ1
+            syc  Synechococcus elongatus PCC6301
+            syu  Synechococcus elongatus UTEX 2973
+            syf  Synechococcus elongatus PCC 7942 = FACHB-805
+            syd  Synechococcus sp. CC9605
+            sye  Synechococcus sp. CC9902
+            syg  Synechococcus sp. CC9311
+            syr  Synechococcus sp. RCC307
+            syx  Synechococcus sp. WH 7803
+            cya  Synechococcus sp. JA-3-3Ab
+            cyb  Synechococcus sp. JA-2-3B'a(2-13)
+            syne  Synechococcus sp. PCC 6312
+            synk  Synechococcus sp. KORDI-100
+            synr  Synechococcus sp. KORDI-49
+            synd  Synechococcus sp. KORDI-52
+            syh  Synechococcus sp. WH 8109
+            synw  Synechococcus sp. WH 8103
+            sync  Synechococcus sp. CB0101
+            syny  Synechococcus sp. SynAce01
+            synz  Synechococcus sp. CBW1002
+            synl  Synechococcus sp. LA31
+            syno  Synechococcus sp. NB0720_010
+            synu  Synechococcus sp. WH 8101
+            sylt  Synechococcus sp. LTW-R
+            sycb  Synechococcus sp. CBW1107
+            syw  Parasynechococcus marenigrum
+            cgc  Cyanobium gracile
+            cyi  Cyanobium sp. NIES-981
+            pma  Prochlorococcus marinus subsp. marinus CCMP1375
+            pmm  Prochlorococcus marinus subsp. pastoris CCMP1986
+            pmt  Prochlorococcus marinus MIT 9313
+            pmn  Prochlorococcus marinus NATL2A
+            pmi  Prochlorococcus marinus MIT 9312
+            pmb  Prochlorococcus marinus AS9601
+            pmc  Prochlorococcus marinus MIT 9515
+            pmf  Prochlorococcus marinus MIT 9303
+            pmg  Prochlorococcus marinus MIT 9301
+            pmh  Prochlorococcus marinus MIT 9215
+            pmj  Prochlorococcus marinus MIT 9211
+            pme  Prochlorococcus marinus NATL1A
+            prc  Prochlorococcus sp. MIT 0604
+            prm  Prochlorococcus sp. MIT 0801
+            pror  Prochlorococcus sp. RSP50
+            wna  Woronichinia naegeliana
+            cmp  Chamaesiphon minutus
+            cyn  Cyanothece sp. PCC 7425
+            cep  Crinalium epipsammum
+            tvn  Thermostichus vulcanus
+            tel  Thermosynechococcus vestitus
+            thec  Thermosynechococcus sp. CL-1
+            they  Thermosynechococcus sp. TA-1
+            tsq  Thermosynechococcus sichuanensis
+            amr  Acaryochloris marina
+            acam  Acaryochloris sp. 'Moss Beach'
+            tsz  Trichothermofontia sichuanensis
+            len  Leptolyngbya sp. NIES-3755
+            let  Leptolyngbya sp. O-77
+            lbo  Leptolyngbya boryana
+            lepb  Leptolyngbya sp. BL0902
+            kov  Kovacikia minuta
+            lsc  Leptodesmis sichuanensis
+            lsk  Leptothermofonsia sichuanensis
+            sfri  Stenomitos frigidus
+            hhg  Halomicronema hongdechloris
+            dsl  Dactylococcopsis salina
+            pseu  Thalassoporum mexicanum
+            pser  Pseudanabaena sp. ABRG5-3
+            pgx  Pseudanabaena galeata
+            synp  Pseudanabaenococcus habilitatus
+            theu  Thermoleptolyngbya sichuanensis
+            tog  Thermoleptolyngbya oregonensis
+            tsin  Thermocoleostomius sinensis
+            chon  Chondrocystis sp. NIES-4102
+            gen  Geminocystis sp. NIES-3709
+            gee  Geminocystis sp. NIES-3708
+            can  Cyanobacterium aponinum
+            csn  Cyanobacterium stanieri
+            cyl  Cyanobacterium sp. HL-69
+            cyr  Cyanobacterium sp. IPPAS B-1200
+            cyd  Cyanobacterium sp. DS4
+            syp  Picosynechococcus sp. PCC 7002
+            syv  Picosynechococcus sp. PCC 73109
+            syl  Picosynechococcus sp. PCC 7003
+            lep  Leptolyngbya sp. PCC 7376
+            synn  Synechococcus sp. NIES-970
+            pip  Picosynechococcus sp. PCC 11901
+            adq  Annamia dubia
+            mar  Microcystis aeruginosa
+            mpk  Microcystis panniformis
+            miq  Microcystis sp. MC19
+            mvz  Microcystis viridis
+            mibl  Microcystis sp. BLCC-F210
+            micd  Microcystis ichthyoblabe
+            mprc  Microcystis protocystis
+            hao  Halothece sp. PCC 7418
+            enn  Euhalothece natronophila
+            cyt  Crocosphaera subtropica
+            cwa  Crocosphaera watsonii
+            cyp  Rippkaea orientalis PCC 8801
+            cyh  Rippkaea orientalis PCC 8802
+            cyc  Gloeothece citriformis
+            cyj  Gloeothece verrucosa
+            ter  Trichodesmium erythraeum
+            pagh  Planktothrix agardhii
+            ppsu  Planktothrix pseudagardhii
+            prun  Planktothrix rubescens
+            mvag  Microcoleus vaginatus
+            lfs  Limnospira fusiformis
+            lix  Limnospira indica
+            arp  Limnospira platensis
+            csau  Capilliphycus salinus
+            oxy  Oxynema aestuarii
+            oac  Oxynema acuminatum
+            phor  Sodalinema alkaliphilum
+            pyh  [Phormidium] yuhuli
+            oni  Oscillatoria nigro-viridis
+            mic  Allocoleopsis franciscana
+            mpro  Moorena producens
+            gei  Geitlerinema sp. PCC 7407
+            gvi  Gloeobacter violaceus
+            glj  Gloeobacter kilaueensis
+            gml  Gloeobacter morelensis
+            ana  Nostoc sp. PCC 7120
+            npu  Nostoc punctiforme
+            nos  Nostoc sp. PCC 7107
+            nop  Nostoc sp. PCC 7524
+            non  Nostoc sp. NIES-3756
+            nfl  Nostoc flagelliforme
+            noe  Nostoc sp. CENA543
+            ned  Nostoc edaphicum
+            npz  Nostoc piscinale
+            nlk  Nostoc linckia
+            ncw  Nostoc carneum
+            nost  Nostoc sp. ATCC 53789
+            nosu  Nostoc sp. UHCC 0702
+            nosq  Nostoc sp. UHCC 0926
+            nosz  Nostoc sp. UHCC 0302
+            nosc  Nostoc sp. UHCC 0870
+            ava  Trichormus variabilis
+            naz  'Nostoc azollae' 0708
+            anb  Anabaena sp. 90
+            acy  Anabaena cylindrica
+            awa  Anabaena sp. WA102
+            ann  Anabaena sp. YBS01
+            csg  Cylindrospermum stagnale
+            rsin  Richelia sinica
+            nsph  Nodularia sphaerocarpa
+            aee  Anabaenopsis elenkinii
+            alih  Aliinostoc sp. HNIBRCY26
+            amat  Aliinostoc maniaoense
+            calo  Calothrix sp. PCC 7507
+            calt  Calothrix sp. PCC 6303
+            calh  Calothrix sp. 336/3
+            caln  Calothrix sp. NIES-2098
+            cals  Calothrix sp. NIES-3974
+            riv  Rivularia sp. PCC 7116
+            mdp  Microchaete diplosiphon
+            fis  Fischerella sp. NIES-3754
+            ahyd  Aetokthonos hydrillicola Thurmond2011
+            dou  Dolichospermum sp. UHCC 0315A
+            dfs  Dolichospermum flos-aquae
+            dht  Dolichospermum heterosporum
+            dcm  Dolichospermum compactum
+            dot  Dolichospermum sp. DET69
+            doz  Dolichospermum sp. UKL201
+            doc  Dolichospermum sp. DL01
+            crk  Cylindrospermopsis raciborskii
+            aflo  Aphanizomenon flos-aquae
+            stoq  Sphaerospermopsis torques-reginae
+            skv  Sphaerospermopsis kisseleviana
+            rcs  Raphidiopsis curvata
+            ccur  Cylindrospermopsis curvispora
+            ocf  Okeanomitos corallinicola
+            toq  Tolypothrix sp. PCC 7910
+            ttq  Tolypothrix tenuis
+            toi  Tolypothrix sp. PCC 7601
+            toz  Tolypothrix sp. PCC 7712
+            alax  Aulosira laxa
+            scyt  Scytonema sp. HK-05
+            scys  Kalymmatonema gypsitolerans
+            bsen  Brasilonema sennae
+            box  Brasilonema octagenarum
+            ncn  Nostocales cyanobacterium HT-58-2
+            cthe  Chroococcidiopsis thermalis
+            glp  Gloeocapsa sp. PCC 7428
+            gdu  Gloeocapsopsis dulcis
+            plp  Pleurocapsa sp. PCC 7327
+            scs  Stanieria cyanosphaera
+            stan  Stanieria sp. NIES-3757
+            glt  Gloeomargarita lithophora
+            gcy  Gloeomargaritales cyanobacterium VI4D9
+REACTION    R01523  C00199 -> C01182
+            R00024  C01182 + C00011 -> C00197
+            R01512  C00197 -> C00236
+            R01061,R01063  C00236 -> C00118
+            R01015  C00118 -> C00111
+            R01068  C00118 + C00111 -> C00354
+            R00762  C00354 -> C00085
+            R01067  C00085 + C00118 -> C00279 + C00231
+            R01829  C00279 + C00111 -> C00447
+            R01845  C00447 -> C05382
+            R01641  C05382 + C00118 -> C00117 + C00231
+            R01056  C00117 -> C00199
+            R01529  C00231 -> C00199
+COMPOUND    C00199  D-Ribulose 5-phosphate
+            C01182  D-Ribulose 1,5-bisphosphate
+            C00011  CO2
+            C00197  3-Phospho-D-glycerate
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00111  Glycerone phosphate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00085  D-Fructose 6-phosphate
+            C00279  D-Erythrose 4-phosphate
+            C00231  D-Xylulose 5-phosphate
+            C00447  Sedoheptulose 1,7-bisphosphate
+            C05382  Sedoheptulose 7-phosphate
+            C00117  D-Ribose 5-phosphate
+///

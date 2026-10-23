@@ -1,0 +1,42 @@
+fetched 2026-10-13
+
+module	KEGG modules
+md	582 entries
+	Last update 2026/10/09
+	Kanehisa Laboratories
+
+linked db	pathway
+	brite
+	ko
+	<org>
+	genome
+	compound
+	glycan
+	reaction
+	rmodule
+	enzyme
+	ntmap
+	pubmed
+
+ko	KO functional orthologs
+orthology	28,533 entries
+	Last update 2026/10/12
+	Kanehisa Laboratories
+
+linked db	pathway
+	brite
+	module
+	genes
+	<org>
+	ag
+	vg
+	vp
+	reaction
+	rclass
+	enzyme
+	network
+	ntmap
+	disease
+	drug
+	pubmed
+map_names.tsv (list/pathway) fetched separately on 2026-10-14

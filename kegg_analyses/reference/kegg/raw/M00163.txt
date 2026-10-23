@@ -1,0 +1,348 @@
+ENTRY       M00163            Pathway   Module
+NAME        Photosystem I
+DEFINITION  K02689+K02690+K02691+K02692+K02693+K02694
+DIAGRAM     M00163  Photosystem I
+CLASS       Pathway modules; Energy metabolism; Photosynthesis
+PATHWAY     map00195  Photosynthesis
+            map01100  Metabolic pathways
+ORTHOLOGY   K02689  psaA; photosystem I P700 chlorophyll a apoprotein A1 [EC:1.97.1.12]
+            K02690  psaB; photosystem I P700 chlorophyll a apoprotein A2 [EC:1.97.1.12]
+            K02691  psaC; photosystem I iron-sulfur center [EC:1.97.1.12]
+            K02692  psaD; photosystem I subunit II
+            K02693  psaE; photosystem I subunit IV
+            K02694  psaF; photosystem I subunit III
+COMPLETE    ath  Arabidopsis thaliana (thale cress)
+            aly  Arabidopsis lyrata (lyrate rockcress)
+            crb  Capsella rubella (pink shepherd's-purse)
+            csat  Camelina sativa (false flax)
+            eus  Eutrema salsugineum (saltwater cress)
+            brp  Brassica rapa (field mustard)
+            bna  Brassica napus (rape)
+            rsz  Raphanus sativus (radish)
+            thj  Tarenaya hassleriana (spider flower)
+            cit  Citrus sinensis (Valencia orange)
+            pvy  Pistacia vera (pistachio)
+            minc  Mangifera indica (mango)
+            tcc  Theobroma cacao (cacao)
+            gra  Gossypium raimondii
+            ghi  Gossypium hirsutum (upland cotton)
+            gab  Gossypium arboreum (tree cotton)
+            hsyr  Hibiscus syriacus (Rose-of-Sharon)
+            dzi  Durio zibethinus (durian)
+            egr  Eucalyptus grandis (rose gum)
+            gmx  Glycine max (soybean)
+            gsj  Glycine soja (wild soybean)
+            pvu  Phaseolus vulgaris (common bean)
+            var  Vigna angularis (adzuki bean)
+            vun  Vigna unguiculata (cowpea)
+            ccaj  Cajanus cajan (pigeon pea)
+            aprc  Abrus precatorius (Indian licorice)
+            mtr  Medicago truncatula (barrel medic)
+            tpra  Trifolium pratense (red clover)
+            cam  Cicer arietinum (chickpea)
+            adu  Arachis duranensis
+            ahf  Arachis hypogaea (peanut)
+            pcin  Prosopis cineraria
+            fve  Fragaria vesca (woodland strawberry)
+            pper  Prunus persica (peach)
+            pmum  Prunus mume (Japanese apricot)
+            pdul  Prunus dulcis (almond)
+            mdm  Malus domestica (apple)
+            msyl  Malus sylvestris (European crab apple)
+            zju  Ziziphus jujuba (Chinese jujube)
+            mnt  Morus notabilis
+            csv  Cucumis sativus (cucumber)
+            cmo  Cucumis melo (muskmelon)
+            bhj  Benincasa hispida (wax gourd)
+            mcha  Momordica charantia (bitter melon)
+            cmax  Cucurbita maxima (winter squash)
+            cmos  Cucurbita moschata (crookneck pumpkin)
+            rcu  Ricinus communis (castor bean)
+            jcu  Jatropha curcas (Barbados nut)
+            hbr  Hevea brasiliensis (rubber tree)
+            mesc  Manihot esculenta (cassava)
+            pop  Populus trichocarpa (black cottonwood)
+            peu  Populus euphratica (Euphrates poplar)
+            jre  Juglans regia (English walnut)
+            csaa  Castanea sativa (European chestnut)
+            vvi  Vitis vinifera (wine grape)
+            vri  Vitis riparia (riverbank grape)
+            sly  Solanum lycopersicum (tomato)
+            spen  Solanum pennellii
+            sot  Solanum tuberosum (potato)
+            sstn  Solanum stenotomum
+            sdul  Solanum dulcamara (climbing nightshade)
+            cann  Capsicum annuum (peppers)
+            lbb  Lycium barbarum (goji berry)
+            nta  Nicotiana tabacum (common tobacco)
+            nsy  Nicotiana sylvestris (wood tobacco)
+            nto  Nicotiana tomentosiformis
+            nau  Nicotiana attenuata (coyote tobacco)
+            ini  Ipomoea nil (Japanese morning glory)
+            itr  Ipomoea triloba (trilobed morning glory)
+            sind  Sesamum indicum (sesame)
+            oeu  Olea europaea var. sylvestris (wild olive)
+            sspl  Salvia splendens (scarlet sage)
+            smil  Salvia miltiorrhiza (redroot sage)
+            shis  Salvia hispanica (chia)
+            hpum  Henckelia pumila
+            pebu  Primulina eburnea
+            ptab  Primulina tabacum
+            carb  Coffea arabica (coffee)
+            han  Helianthus annuus (common sunflower)
+            ecad  Erigeron canadensis (horseweed)
+            lsv  Lactuca sativa (garden lettuce)
+            dcr  Daucus carota (carrot)
+            csin  Camellia sinensis (tea plant)
+            aew  Actinidia eriantha (wild kiwifruit)
+            dlt  Diospyros lotus (date-plum)
+            soe  Spinacia oleracea (spinach)
+            cqi  Chenopodium quinoa (quinoa)
+            atri  Amaranthus tricolor (tampala)
+            nnu  Nelumbo nucifera (sacred lotus)
+            ming  Macadamia integrifolia (macadamia nut)
+            psom  Papaver somniferum (opium poppy)
+            osa  Oryza sativa japonica (Japanese rice)
+            dosa  Oryza sativa japonica (Japanese rice) (RAPDB)
+            obr  Oryza brachyantha (malo sina)
+            ogl  Oryza glaberrima (African rice)
+            bdi  Brachypodium distachyon (stiff brome)
+            ats  Aegilops tauschii (wheat D)
+            taes  Triticum aestivum (bread wheat)
+            tua  Triticum urartu (red wild einkorn wheat)
+            hvg  Hordeum vulgare subsp. vulgare (domesticated barley)
+            lper  Lolium perenne (perennial ryegrass)
+            sbi  Sorghum bicolor (sorghum)
+            zma  Zea mays (maize)
+            mflo  Miscanthus floridulus
+            sita  Setaria italica (foxtail millet)
+            svs  Setaria viridis (green foxtail)
+            pvir  Panicum virgatum (switchgrass)
+            acss  Ananas comosus (pineapple)
+            pda  Phoenix dactylifera (date palm)
+            egu  Elaeis guineensis (African oil palm)
+            zof  Zingiber officinale (ginger)
+            dct  Dendrobium catenatum
+            peq  Phalaenopsis equestris
+            msin  Magnolia sinica
+            ncol  Nymphaea colorata (blue-petal water lily)
+            atr  Amborella trichopoda
+            cjf  Cryptomeria japonica (Japanese cedar)
+            smo  Selaginella moellendorffii
+            ppp  Physcomitrium patens (spreading earthmoss)
+            cre  Chlamydomonas reinhardtii
+            csl  Coccomyxa subellipsoidea
+            cvr  Chlorella variabilis
+            apro  Auxenochlorella protothecoides
+            ota  Ostreococcus tauri
+            cme  Cyanidioschyzon merolae
+            gsl  Galdieria sulphuraria
+            ccp  Chondrus crispus (carragheen)
+            aaf  Aureococcus anophagefferens
+            syn  Synechocystis sp. PCC 6803
+            syz  Synechocystis sp. PCC 6803
+            syy  Synechocystis sp. PCC 6803 GT-S
+            syt  Synechocystis sp. PCC 6803 GT-I
+            sys  Synechocystis sp. PCC 6803 PCC-N
+            syq  Synechocystis sp. PCC 6803 PCC-P
+            syj  Synechocystis sp. PCC 6714
+            syo  Synechocystis sp. IPPAS B-1465
+            synh  Synechocystis sp. PCC 7338
+            syns  Synechocystis sp. LKSZ1
+            syc  Synechococcus elongatus PCC6301
+            syu  Synechococcus elongatus UTEX 2973
+            syf  Synechococcus elongatus PCC 7942 = FACHB-805
+            syd  Synechococcus sp. CC9605
+            sye  Synechococcus sp. CC9902
+            syg  Synechococcus sp. CC9311
+            syr  Synechococcus sp. RCC307
+            syx  Synechococcus sp. WH 7803
+            cya  Synechococcus sp. JA-3-3Ab
+            cyb  Synechococcus sp. JA-2-3B'a(2-13)
+            syne  Synechococcus sp. PCC 6312
+            synk  Synechococcus sp. KORDI-100
+            synr  Synechococcus sp. KORDI-49
+            synd  Synechococcus sp. KORDI-52
+            syh  Synechococcus sp. WH 8109
+            synw  Synechococcus sp. WH 8103
+            sync  Synechococcus sp. CB0101
+            syny  Synechococcus sp. SynAce01
+            synz  Synechococcus sp. CBW1002
+            synl  Synechococcus sp. LA31
+            syno  Synechococcus sp. NB0720_010
+            synu  Synechococcus sp. WH 8101
+            sylt  Synechococcus sp. LTW-R
+            sycb  Synechococcus sp. CBW1107
+            syw  Parasynechococcus marenigrum
+            cgc  Cyanobium gracile
+            cyi  Cyanobium sp. NIES-981
+            pma  Prochlorococcus marinus subsp. marinus CCMP1375
+            pmm  Prochlorococcus marinus subsp. pastoris CCMP1986
+            pmt  Prochlorococcus marinus MIT 9313
+            pmn  Prochlorococcus marinus NATL2A
+            pmi  Prochlorococcus marinus MIT 9312
+            pmb  Prochlorococcus marinus AS9601
+            pmc  Prochlorococcus marinus MIT 9515
+            pmf  Prochlorococcus marinus MIT 9303
+            pmg  Prochlorococcus marinus MIT 9301
+            pmh  Prochlorococcus marinus MIT 9215
+            pmj  Prochlorococcus marinus MIT 9211
+            pme  Prochlorococcus marinus NATL1A
+            prc  Prochlorococcus sp. MIT 0604
+            prm  Prochlorococcus sp. MIT 0801
+            pror  Prochlorococcus sp. RSP50
+            wna  Woronichinia naegeliana
+            cmp  Chamaesiphon minutus
+            cyn  Cyanothece sp. PCC 7425
+            cep  Crinalium epipsammum
+            tvn  Thermostichus vulcanus
+            slw  Parathermosynechococcus lividus
+            tel  Thermosynechococcus vestitus
+            thn  Thermosynechococcus sp. NK55
+            thec  Thermosynechococcus sp. CL-1
+            they  Thermosynechococcus sp. TA-1
+            tsq  Thermosynechococcus sichuanensis
+            amr  Acaryochloris marina
+            acam  Acaryochloris sp. 'Moss Beach'
+            tsz  Trichothermofontia sichuanensis
+            len  Leptolyngbya sp. NIES-3755
+            let  Leptolyngbya sp. O-77
+            lbo  Leptolyngbya boryana
+            lepb  Leptolyngbya sp. BL0902
+            kov  Kovacikia minuta
+            lsc  Leptodesmis sichuanensis
+            lsk  Leptothermofonsia sichuanensis
+            sfri  Stenomitos frigidus
+            hhg  Halomicronema hongdechloris
+            dsl  Dactylococcopsis salina
+            pseu  Thalassoporum mexicanum
+            pser  Pseudanabaena sp. ABRG5-3
+            pgx  Pseudanabaena galeata
+            synp  Pseudanabaenococcus habilitatus
+            theu  Thermoleptolyngbya sichuanensis
+            tog  Thermoleptolyngbya oregonensis
+            chon  Chondrocystis sp. NIES-4102
+            gen  Geminocystis sp. NIES-3709
+            gee  Geminocystis sp. NIES-3708
+            can  Cyanobacterium aponinum
+            csn  Cyanobacterium stanieri
+            cyl  Cyanobacterium sp. HL-69
+            cyr  Cyanobacterium sp. IPPAS B-1200
+            cyd  Cyanobacterium sp. DS4
+            syp  Picosynechococcus sp. PCC 7002
+            lep  Leptolyngbya sp. PCC 7376
+            synn  Synechococcus sp. NIES-970
+            pip  Picosynechococcus sp. PCC 11901
+            adq  Annamia dubia
+            mar  Microcystis aeruginosa
+            mpk  Microcystis panniformis
+            miq  Microcystis sp. MC19
+            mvz  Microcystis viridis
+            mibl  Microcystis sp. BLCC-F210
+            micd  Microcystis ichthyoblabe
+            mprc  Microcystis protocystis
+            hao  Halothece sp. PCC 7418
+            enn  Euhalothece natronophila
+            cyu  Atelocyanobacterium thalassa
+            cyt  Crocosphaera subtropica
+            cwa  Crocosphaera watsonii
+            cyp  Rippkaea orientalis PCC 8801
+            cyh  Rippkaea orientalis PCC 8802
+            cyc  Gloeothece citriformis
+            cyj  Gloeothece verrucosa
+            ter  Trichodesmium erythraeum
+            pagh  Planktothrix agardhii
+            ppsu  Planktothrix pseudagardhii
+            prun  Planktothrix rubescens
+            mvag  Microcoleus vaginatus
+            lfs  Limnospira fusiformis
+            lix  Limnospira indica
+            arp  Limnospira platensis
+            csau  Capilliphycus salinus
+            oxy  Oxynema aestuarii
+            oac  Oxynema acuminatum
+            phor  Sodalinema alkaliphilum
+            pyh  [Phormidium] yuhuli
+            oni  Oscillatoria nigro-viridis
+            mic  Allocoleopsis franciscana
+            mpro  Moorena producens
+            gei  Geitlerinema sp. PCC 7407
+            gvi  Gloeobacter violaceus
+            glj  Gloeobacter kilaueensis
+            gml  Gloeobacter morelensis
+            ana  Nostoc sp. PCC 7120
+            npu  Nostoc punctiforme
+            nos  Nostoc sp. PCC 7107
+            nop  Nostoc sp. PCC 7524
+            non  Nostoc sp. NIES-3756
+            nfl  Nostoc flagelliforme
+            noe  Nostoc sp. CENA543
+            nsh  Nostoc sphaeroides
+            ned  Nostoc edaphicum
+            npz  Nostoc piscinale
+            nlk  Nostoc linckia
+            ncw  Nostoc carneum
+            nost  Nostoc sp. ATCC 53789
+            nosu  Nostoc sp. UHCC 0702
+            nosq  Nostoc sp. UHCC 0926
+            nosz  Nostoc sp. UHCC 0302
+            nosc  Nostoc sp. UHCC 0870
+            ava  Trichormus variabilis
+            naz  'Nostoc azollae' 0708
+            anb  Anabaena sp. 90
+            acy  Anabaena cylindrica
+            awa  Anabaena sp. WA102
+            ann  Anabaena sp. YBS01
+            csg  Cylindrospermum stagnale
+            rsin  Richelia sinica
+            hbq  Halotia branconii
+            nsph  Nodularia sphaerocarpa
+            aee  Anabaenopsis elenkinii
+            alih  Aliinostoc sp. HNIBRCY26
+            amat  Aliinostoc maniaoense
+            calo  Calothrix sp. PCC 7507
+            calt  Calothrix sp. PCC 6303
+            calh  Calothrix sp. 336/3
+            caln  Calothrix sp. NIES-2098
+            cals  Calothrix sp. NIES-3974
+            riv  Rivularia sp. PCC 7116
+            mdp  Microchaete diplosiphon
+            fis  Fischerella sp. NIES-3754
+            ahyd  Aetokthonos hydrillicola Thurmond2011
+            dou  Dolichospermum sp. UHCC 0315A
+            dfs  Dolichospermum flos-aquae
+            dht  Dolichospermum heterosporum
+            dcm  Dolichospermum compactum
+            dot  Dolichospermum sp. DET69
+            doz  Dolichospermum sp. UKL201
+            doc  Dolichospermum sp. DL01
+            crk  Cylindrospermopsis raciborskii
+            aflo  Aphanizomenon flos-aquae
+            stoq  Sphaerospermopsis torques-reginae
+            skv  Sphaerospermopsis kisseleviana
+            rcs  Raphidiopsis curvata
+            ccur  Cylindrospermopsis curvispora
+            ocf  Okeanomitos corallinicola
+            toq  Tolypothrix sp. PCC 7910
+            ttq  Tolypothrix tenuis
+            toi  Tolypothrix sp. PCC 7601
+            toz  Tolypothrix sp. PCC 7712
+            alax  Aulosira laxa
+            scyt  Scytonema sp. HK-05
+            scys  Kalymmatonema gypsitolerans
+            bsen  Brasilonema sennae
+            box  Brasilonema octagenarum
+            ncn  Nostocales cyanobacterium HT-58-2
+            cthe  Chroococcidiopsis thermalis
+            glp  Gloeocapsa sp. PCC 7428
+            plp  Pleurocapsa sp. PCC 7327
+            scs  Stanieria cyanosphaera
+            stan  Stanieria sp. NIES-3757
+            glt  Gloeomargarita lithophora
+            gcy  Gloeomargaritales cyanobacterium VI4D9
+REACTION    R09542  C03025 + C00139 -> C03162 + C00138
+COMPOUND    C03025  Reduced plastocyanin
+            C00139  Oxidized ferredoxin
+            C03162  Oxidized plastocyanin
+            C00138  Reduced ferredoxin
+///

@@ -4,7 +4,7 @@ Analysis code for the manuscript on cyanobacterial genome annotation enrichment.
 
 | Folder | Analysis |
 |---|---|
-| [genome_analyzer/](genome_analyzer/) | Per-genome statistics and plots: hypothetical-protein reduction, Dbxref gains, Prokka metrics, antiSMASH vs GECCO clusters |
+| [genome_fetcher/](genome_fetcher/) | Genome selection and download from NCBI: best assemblies per cyanobacterial family |
 | [kegg_analyses/](kegg_analyses/) | KO coverage and KEGG module reconstruction, Bakta vs integrated pipeline, 40 genomes |
 | [bgc_analyses/](bgc_analyses/) | Annotation gain for CDS inside antiSMASH clusters |
 

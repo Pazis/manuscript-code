@@ -77,9 +77,9 @@ def main():
         "ko\tmap\n" + "".join(f"{k}\t{p}\n" for k, p in sorted(pairs)))
 
     for org in BENCHMARK_ORGS.values():
-        kos = sorted({l.split("\t")[1].removeprefix("ko:") for l in get(f"link/ko/{org}").splitlines()})
+        kos = sorted({x.split("\t")[1].removeprefix("ko:") for x in get(f"link/ko/{org}").splitlines()})
         (KEGG_DIR / f"{org}_kos.txt").write_text("\n".join(kos) + "\n")
-        mods = sorted({l.split("\t")[1].split("_")[-1] for l in get(f"link/module/{org}").splitlines()})
+        mods = sorted({x.split("\t")[1].split("_")[-1] for x in get(f"link/module/{org}").splitlines()})
         (KEGG_DIR / f"{org}_modules.txt").write_text("\n".join(mods) + "\n")
 
     (KEGG_DIR / "RELEASE.txt").write_text(

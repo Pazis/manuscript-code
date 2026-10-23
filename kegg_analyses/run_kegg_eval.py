@@ -42,7 +42,7 @@ def validate() -> pd.DataFrame:
         if dropped:
             errors.append(f"{g.accession}: {dropped} proteins lose a Bakta KO in the enhanced GFF3 (A ⊆ D assumption broken)")
         for tool, path, n in [("bakta", g.bakta_gff, len(bakta)), ("enhanced", g.enhanced_gff, len(enh))]:
-            header = " | ".join(l.strip() for l in open(path) if l.startswith("#") and not l.startswith("##sequence"))
+            header = " | ".join(x.strip() for x in open(path) if x.startswith("#") and not x.startswith("##sequence"))
             prov.append({"genome": g.accession, "file": tool, "path": path, "n_cds": n,
                          "md5": hashlib.md5(open(path, "rb").read()).hexdigest(), "header": header})
         prov.append({"genome": g.accession, "file": "enhanced_only_cds", "n_cds": len(enh.keys() - bakta.keys())})

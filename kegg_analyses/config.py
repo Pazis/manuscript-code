@@ -34,9 +34,11 @@ EXPECTATIONS = {
     "GCF_000025125.1": {"M00161": False, "M00165": False, "M00611": False, "M00163": True, "M00175": True},
 }
 
+
 # T2 tier: KEGG Metabolism maps, minus the global/overview maps (map011xx, map012xx)
 def is_metabolic_map(map_id: str) -> bool:
     n = int(map_id.removeprefix("map"))
     return 10 <= n < 1100
+
 
 HYPOTHETICAL = "hypothetical protein"

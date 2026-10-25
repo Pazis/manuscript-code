@@ -112,7 +112,7 @@ def per_genome(cds: pd.DataFrame, clusters: pd.DataFrame, genomes) -> pd.DataFra
 
 
 def per_db(cds: pd.DataFrame) -> pd.DataFrame:
-    """Dbxref entries per genome and database (KEGG, GO, COG, EC)."""
+    """Dbxref entries per genome and database (GO, InterPro, KEGG, COG, EC, ...)."""
     out = []
     for state, col in [("bakta", "bakta_xrefs"), ("enhanced", "enhanced_xrefs")]:
         x = cds[["genome"]].assign(db=cds[col].str.split(",")).explode("db")

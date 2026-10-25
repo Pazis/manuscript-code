@@ -19,16 +19,23 @@ def write(df: pd.DataFrame, name: str):
     print(f"  wrote {name} ({len(df)} rows)")
 
 
-def find_one(directory, accession) -> str:
-    hits = sorted(directory.glob(f"{accession}_*.gff3"))
+def find_one(directory, accession, pattern="{acc}_*.gff3") -> str:
+    hits = sorted(directory.glob(pattern.format(acc=accession)))
     return str(hits[0]) if len(hits) == 1 else ""
 
 
+def genome_list() -> pd.DataFrame:
+    df = pd.read_csv(config.GENOME_LIST)
+    df["File"] = df.File.str.extract(r"^(GC[AF]_\d+\.\d+)", expand=False)  # folder name -> accession
+    assert df.File.notna().all() and df.File.is_unique, "genome list has unparsable or duplicate accessions"
+    return df
+
+
 def build():
-    genomes = pd.read_csv(config.GENOME_LIST).File.tolist()
+    genomes = sorted(genome_list().File)
     cds, clusters, dbs, skipped, analysed = [], [], [], [], []
     for acc in genomes:
-        b, e = find_one(config.BAKTA_GFF_DIR, acc), find_one(config.ENHANCED_GFF_DIR, acc)
+        b, e = find_one(config.BAKTA_GFF_DIR, acc), find_one(config.ENHANCED_GFF_DIR, acc, config.ENHANCED_GFF_GLOB)
         if not b or not e:
             skipped.append(f"{acc} (bakta={bool(b)}, enhanced={bool(e)})")
             continue
@@ -54,11 +61,10 @@ def build():
 
 
 def crosscheck(clusters: pd.DataFrame, genomes) -> pd.DataFrame:
-    """antiSMASH clusters parsed here vs the pipeline summary and BGC_statistics_summary.xlsx."""
+    """antiSMASH clusters parsed here vs the pipeline summary."""
     n = clusters.groupby("genome").size().reindex(genomes, fill_value=0).rename("parsed_antiSMASH")
-    summary = pd.read_csv(config.GENOME_LIST).set_index("File")[["Enhanced_BGCs"]]
-    stats = pd.read_excel(config.BGC_STATS).set_index("Locus Tag")[["AntiSMASH Count"]]
-    return n.to_frame().join(summary).join(stats).rename_axis("genome").reset_index()
+    summary = genome_list().set_index("File")[["Enhanced_BGCs"]]
+    return n.to_frame().join(summary).rename_axis("genome").reset_index()
 
 
 EXPORTS = {
